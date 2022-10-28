@@ -2,24 +2,35 @@
 
 ## Learning Goals
 
-- Learning Goal 1
-- Learning Goal 2
+- Review the REST API.
 
-## Introduction
+## RESTful API Review
 
-A 1-2 sentence summary of what will be covered.
+REST (REpresentational State Transfer) is a common way of client-server
+interaction. It is a set of rules that define how data should be queried and
+managed. A service that is written with these rules is called a RESTful service,
+or REST service. Since Spring supports REST services, we'll be working with the
+REST API quite a bit in this module. With that said, let's review the six
+principles of a REST service:
 
-## Topic 1
+- **Client-Server Interaction Model:** the application rendering the data and
+  the application processing the data are kept separate.
+- **Stateless:** Every request from a client must contain the necessary
+  information to retrieve or manipulate data on the server. It cannot rely on
+  any stored state on the server.
+- **Cacheable:** A request-response value can be cached on the server so that
+  the server can return repeated requests without having to reprocess data.
+- **Uniform Interface:** All RESTful services follow a consistent naming
+  convention which makes it easy to work across different services.
+- **Layered System:** The client request may be routed through other services
+  before reaching the server. A client doesn’t know if it is directly connected
+  to a server.
+- **Code on Demand:** A client can request executable code from the server in
+  the form of applets or scripts.
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
-
-## Topic 2
-
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+Be sure to follow
+[REST resource naming conventions](https://restfulapi.net/resource-naming/) when
+building a REST service.
 
 ## Conclusion
 
