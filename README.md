@@ -172,7 +172,7 @@ to the Joke API and use the `RestTemplate` bean:
 
 package com.example.springrestdemo.service;
 
-import com.example.springwebdemo.dto.JokeDTO;
+import com.example.springrestdemo.dto.JokeDTO;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
